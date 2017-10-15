@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+           "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta name="GENERATOR" content="TtH 3.76">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <style type="text/css"> div.p { margin-top: 7pt;}</style>
+ <style type="text/css"><!--
+ td div.comp { margin-top: -0.6ex; margin-bottom: -1ex;}
+ td div.comb { margin-top: -0.6ex; margin-bottom: -.6ex;}
+ td div.hrcomp { line-height: 0.9; margin-top: -0.8ex; margin-bottom: -1ex;}
+ td div.norm {line-height:normal;}
+ span.roman {font-family: serif; font-style: normal; font-weight: normal;} 
+ span.overacc2 {position: relative;  left: .8em; top: -1.2ex;}
+ span.overacc1 {position: relative;  left: .6em; top: -1.2ex;} --></style>
+ 
+
+<title> Simulações: Corda Elástica Presa nas Extremidades</title>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
+</script>
+</head> 
+<body>
+<h1 align="center">Simulações: Corda Elástica Presa nas 
+Extremidades</h1> 
+
+<ul>
+
+<li> Modo Normal de Vibração 
+$$
+u_n(x,t)=[\cos\frac{an\pi t}{L}]\sin\frac{n\pi x}{L},\quad n=4,\;a=0.2
+$$
+<a href="http://googledrive.com/host/0B8HiDSdBekUKN3pSQmp5b21VbUE"  onclick="window.open('http://googledrive.com/host/0B8HiDSdBekUKN3pSQmp5b21VbUE', 'newwindow', 'width=600, height=500'); return false;"> modosnormais1-a.gif</a>.
+<div class="p"><!----></div>
+</li>
+
+
+<li> Corda Elástica com Velocidade Inicial Nula 
+$$
+\begin{cases}
+\displaystyle\frac{\partial^2 u}{\partial t^2}=a^2\frac{\partial^2u}{\partial
+x^2}\\
+u(x,0)=f(x), \; 
+\displaystyle\frac{\partial u}{\partial t}(x,0)=0,\;0 < x < L\\
+u(0,t)=0,\;u(L,t)=0
+\end{cases}
+$$
+$$
+f(x)=2.5\sin\left(\frac{\pi x}{L}\right)
+- 0.19\sin\left(\frac{3\pi x}{L}\right)
++ 0.02\sin\left(\frac{5\pi x}{L}\right),\quad a=0.2
+$$
+<a href="http://googledrive.com/host/0B8HiDSdBekUKVGJuX09Mbzd2ZUE"  onclick="window.open('http://googledrive.com/host/0B8HiDSdBekUKVGJuX09Mbzd2ZUE', 'newwindow', 'width=600, height=500'); return false;"> cordavelzero-a.gif</a>.
+<div class="p"><!----></div>
+</li>
+
+
+</ul> 
+<a href="http://www.mat.ufmg.br/~regi" target="_top">Página Inicial</a>
+</body>
+</html>
